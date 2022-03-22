@@ -10,8 +10,8 @@ var ball;
 var num1, num2;
 var ground, wall1, wall2
 
-var num1 = prompt('Write what the X velocity of the ball should be. (It is less than 0.25)')
-var num2 = prompt('Write what the Y velocity of the ball should be. (It is less than 0.25)')
+var num1 = prompt('Write what the X velocity of the ball should be. (It is less than 0.025)')
+var num2 = prompt('Write what the Y velocity of the ball should be. (It is less than 0.025)')
 
 function setup() {
 	createCanvas(800, 700);
